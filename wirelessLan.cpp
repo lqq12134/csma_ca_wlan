@@ -26,7 +26,7 @@ double nedt(double rate)
      return ((-1/rate)*std::log(1-u));
 }
 
-double dataLengthFrame(double rate) 
+double dataLengthFrame(double rate) //no use of rate
 {
     // http://en.cppreference.com/w/cpp/numeric/random/exponential_distribution
     std::random_device rd;
